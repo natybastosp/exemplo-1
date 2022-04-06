@@ -9,6 +9,10 @@ typedef struct Pessoa {
 	char cpf[11];		
 }t_pessoa;
 
+struct{
+int n1,n2;
+}numbers;
+
 int main(void) {
   struct Pessoa p1, v_p[10];
 	t_pessoa pessoa, pessoas[100], *ptr_pessoa;
